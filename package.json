@@ -1,0 +1,13 @@
+{
+  "name": "plotter-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "hpgl": "^0.8.7-10",
+    "serialport": "^7.1.4"
+  },
+  "scripts": {
+    "start": "node $NODE_DEBUG_OPTION src/index.js"
+  }
+}
